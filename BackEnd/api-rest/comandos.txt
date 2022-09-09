@@ -1,0 +1,16 @@
+- Equipe
+    php artisan make:model Team -mf
+- Jogador
+    php artisan make:model Player -mf
+- Confronto
+    php artisan make:model Clashes -mf
+- Logs de confrontos
+    php artisan make:model Logs -mf
+
+php artisan make:controller Api/TeamController --resource --api
+
+php artisan make:controller Api/PlayerController --resource --api
+
+php artisan make:controller Api/ClashesController --resource --api
+
+php artisan make:controller Api/LogsController --resource --api
