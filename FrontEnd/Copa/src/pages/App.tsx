@@ -4,8 +4,8 @@ import { Routes,Route} from 'react-router-dom';
 import { Team } from './Team';
 import {Clashes} from './Clashes';
 import {Navbar} from '../components/Navbar';
-import { Players } from '../components/Players';
 import { Footer } from '../components/Footer';
+import '../global.css'
 
 export function App() {
   return (
